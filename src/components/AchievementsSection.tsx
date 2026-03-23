@@ -38,7 +38,7 @@ const transition = { duration: 0.5, ease: [0.2, 0, 0, 1] as const };
 
 const AchievementsSection = () => {
   return (
-    <section id="achievements" className="relative px-4 py-20">
+    <section id="co-curricular" className="relative px-4 py-20">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -49,7 +49,7 @@ const AchievementsSection = () => {
         >
           <div className="w-3 h-3 border border-accent/60 rotate-45" />
           <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground">
-            MILESTONES_UNLOCKED
+            CO-CURRICULAR
           </h2>
           <div className="flex-1 h-[1px] bg-gradient-to-r from-accent/30 to-transparent ml-4" />
         </motion.div>
